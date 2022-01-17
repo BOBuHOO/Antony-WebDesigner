@@ -1,0 +1,127 @@
+
+h1{
+    margin-top: 50px;
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;/*100%:16px*/ /*1em:16px*/
+    color: #57CC99;
+    line-height: 2;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #57CC99;
+   font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #38A3A5;
+}
+
+body{
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    
+}
+
+hr {
+  
+    width: 5%;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 10px;
+}
+/*********************************CLASS SELCTORS****************************/
+
+.Top {
+    background-color: #E4F9F5;
+ padding-top: 100px;
+ position: relative;
+}
+
+.Antony{
+    margin-bottom: 0;
+}
+
+
+
+.Web {
+    text-decoration: underline;
+}
+
+.Designer{
+    color: #F21170;
+}
+
+.math{
+    width: 25%;
+    float: right;
+    margin-right: 50px;
+}
+
+.Computer{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+
+.Bottom{
+    background-color: #30E3CA;
+    padding: 25px 0 25px 0;
+    margin: 0px;
+}
+
+.Middle{
+    padding: 100px 0;
+}
+
+.btn {
+    background: #ab00a8;
+    background-image: -webkit-linear-gradient(top, #ab00a8, #eaff00);
+    background-image: -moz-linear-gradient(top, #ab00a8, #eaff00);
+    background-image: -ms-linear-gradient(top, #ab00a8, #eaff00);
+    background-image: -o-linear-gradient(top, #ab00a8, #eaff00);
+    background-image: linear-gradient(to bottom, #ab00a8, #eaff00);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 27px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #AA18E4;
+    text-decoration: none;
+  }
+
+
+/*****************************************ID SELCTORS*************************************/
+
+
+#cloud-1{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+#cloud-2{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
